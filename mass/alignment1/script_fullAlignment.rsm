@@ -1,0 +1,13 @@
+load fullAlignment.pdb
+ background white
+ define core (:A:1 and 4) or (:A:1 and 6) or (:A:1 and 8) or (:A:1 and 21) or (:A:1 and 22) or (:A:1 and 23) or (:A:1 and 24) or (:A:1 and 26) or (:A:1 and 31) or (:A:1 and 32) or (:A:1 and 33) or (:A:1 and 34) or 
+ define core core or (:A:1 and 35) or (:A:1 and 36) or (:A:1 and 37) or (:A:1 and 38) or (:A:1 and 39) or (:A:1 and 40) or (:A:1 and 41) or (:A:1 and 42) or (:A:1 and 43) or (:A:1 and 44) or (:A:1 and 45) or (:A:1 and 46) or 
+ define core core or (:A:1 and 47) or (:A:1 and 48) or (:A:1 and 49) or (:A:1 and 50) or (:A:1 and 51) or (:A:1 and 52) or (:A:1 and 53) or (:A:1 and 54) or (:A:1 and 55) or (:A:1 and 56) or (:A:1 and 57) or (:A:1 and 60) or 
+ define core core or (:A:1 and 61) or (:A:1 and 62) or (:A:1 and 63) or (:A:1 and 65) or (:A:1 and 67) or (:A:1 and 69) or (:A:1 and 78) or (:A:1 and 79) or (:A:1 and 80) or (:A:1 and 81) or (:A:1 and 82) or (:A:1 and 83) or 
+ define core core or (:A:1 and 84) or (:A:1 and 85) or (:A:1 and 86) or (:A:1 and 87) or (:A:1 and 88) or (:A:1 and 89) or (:A:1 and 90) or (:A:1 and 91) or (:A:1 and 92) or (:A:1 and 93) or (:A:1 and 94) or (:A:1 and 95) or 
+ define core core or (:A:1 and 96) or (:A:1 and 97) or (:A:1 and 98) or (:A:1 and 99) or (:A:1 and 100) or (:A:2 and 1) or (:A:2 and 4) or (:A:2 and 5) or (:A:2 and 28) or (:A:2 and 31) or (:A:2 and 32) or (:A:2 and 33) or 
+ define core core or (:A:2 and 34) or (:A:2 and 35) or (:A:2 and 36) or (:A:2 and 37) or (:A:2 and 38) or (:A:2 and 39) or (:A:2 and 40) or (:A:2 and 41) or (:A:2 and 42) or (:A:2 and 43) or (:A:2 and 44) or (:A:2 and 45) or 
+ define core core or (:A:2 and 46) or (:A:2 and 47) or (:A:2 and 48) or (:A:2 and 49) or (:A:2 and 50) or (:A:2 and 51) or (:A:2 and 52) or (:A:2 and 53) or (:A:2 and 54) or (:A:2 and 55) or (:A:2 and 56) or (:A:2 and 57) or 
+ define core core or (:A:2 and 62) or (:A:2 and 63) or (:A:2 and 64) or (:A:2 and 65) or (:A:2 and 66) or (:A:2 and 68) or (:A:2 and 69) or (:A:2 and 71) or (:A:2 and 72) or (:A:2 and 75) or (:A:2 and 76) or (:A:2 and 78) or 
+ define core core or (:A:2 and 79) or (:A:2 and 80) or (:A:2 and 81) or (:A:2 and 82) or (:A:2 and 83) or (:A:2 and 84) or (:A:2 and 85) or (:A:2 and 86) or (:A:2 and 87) or (:A:2 and 88) or (:A:2 and 89) or (:A:2 and 90) or 
+ define core core or (:A:2 and 91) or (:A:2 and 92) or (:A:2 and 93) or (:A:2 and 94) or (:A:2 and 95) or (:A:2 and 96) or (:A:2 and 97) or (:A:2 and 98) or (:A:2 and 99) or (:A:2 and 100) or 

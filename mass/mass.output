@@ -1,0 +1,201 @@
+Run Parameters: 
+pivot-iteration = true 
+minimum-number-of-aligned-molecules = 2 
+match-list-type = one-to-one 
+debug-level = 2 
+helix-min-size = 5 
+basis-max-midPoint-distance = 40 
+congruent-bases-max-angle-difference = 0.3 
+ranking = absolute 
+alignment-type = atom 
+max-rmsd = 6.0 
+congruent-bases-max-midPoint-distance = 1.5 
+sse-margin = 0 
+cluster-bin-size = 3.5 
+max-num-of-best-pairwise-matches = 1 
+strand-min-size = 2 
+congruent-bases-max-line-distance = 1.5 
+extension-num-of-refinements = 2 
+extension-max-atom-distance = 3.0 
+min-percentage-of-matched-atoms = 0.02 
+cluster-max-dist = 3.5 
+sse-file-type = DSSP 
+max-num-of-solutions = 10 
+
+2 molecules were loaded: 
+omegafold.pdb	 (100 residues, 3 SSEs) 
+openfold.pdb	 (100 residues, 5 SSEs) 
+
+The average molecule size is 100
+The average number of SSEs is 4
+
+Best Multiple Matches: 
++--------------+-----------+ 
+| num. of mol. | core size | 
++--------------+-----------+ 
+|            2 |        65 | 
++---------------+-----------+ 
+ 
+Summary of Multiple Matches: 
++-- ------------+--------------+-----------+-----------+ 
+| alignment no. | num. of mol. | core size | avg. RMSD | 
++--- -----------+--------------+-----------+-----------+ 
+|             1 |            2 |        65 |       1.3 | 
+|             2 |            2 |        64 |       1.2 | 
++---------------+--------------+-----------+-----------+ 
+ 
+ 
+Multiple Matches: 
+
+Alignment No. 1:
+*** Num of molecules = 2 
+*** Size = 65 
+*** Average RMSD = 1.3 
+*** Molecules: omegafold.pdb openfold.pdb 
+*** Transformations:
+openfold.pdb: 1.549336 -0.241951 1.585540 0.103738 -2.768202 -2.538459
+*** Match List:
+omegafold.pdb, openfold.pdb,
+A.G.  4      ,A.M.  1      ,
+A.V.  6      ,A.G.  4      ,
+A.A.  8      ,A.D.  5      ,
+A.Y. 21      ,A.A. 72      ,
+A.L. 22      ,A.E. 71      ,
+A.V. 23      ,A.R. 68      ,
+A.P. 24      ,A.T. 69      ,
+A.V. 26      ,A.P. 28      ,
+A.E. 31      ,A.E. 31      ,
+A.I. 32      ,A.I. 32      ,
+A.K. 33      ,A.K. 33      ,
+A.L. 34      ,A.L. 34      ,
+A.N. 35      ,A.N. 35      ,
+A.S. 36      ,A.S. 36      ,
+A.T. 37      ,A.T. 37      ,
+A.K. 38 (H 0),A.K. 38 (H 0),
+A.P. 39 (H 0),A.P. 39 (H 0),
+A.F. 40 (H 0),A.F. 40 (H 0),
+A.D. 41 (H 0),A.D. 41 (H 0),
+A.E. 42 (H 0),A.E. 42 (H 0),
+A.F. 43 (H 0),A.F. 43 (H 0),
+A.N. 44 (H 0),A.N. 44 (H 0),
+A.E. 45 (H 0),A.E. 45 (H 0),
+A.A. 46 (H 0),A.A. 46 (H 0),
+A.K. 47 (H 0),A.K. 47 (H 0),
+A.S. 48 (H 0),A.S. 48 (H 0),
+A.L. 49      ,A.L. 49      ,
+A.G. 50      ,A.G. 50      ,
+A.V. 51      ,A.V. 51      ,
+A.E. 52      ,A.E. 52      ,
+A.T. 53      ,A.T. 53      ,
+A.K. 54      ,A.K. 54      ,
+A.P. 55      ,A.P. 55      ,
+A.V. 56      ,A.V. 56      ,
+A.F. 57      ,A.F. 57      ,
+A.P. 60 (H 1),A.F. 63 (H 1),
+A.Y. 61 (H 1),A.T. 62 (H 1),
+A.T. 62 (H 1),A.L. 66 (H 1),
+A.F. 63 (H 1),A.L. 64 (H 1),
+A.K. 65 (H 1),A.K. 65 (H 1),
+A.A. 67      ,A.L. 75      ,
+A.T. 69      ,A.E. 76      ,
+A.D. 78      ,A.D. 78      ,
+A.K. 79 (H 2),A.K. 79 (H 2),
+A.G. 80 (H 2),A.G. 80 (H 2),
+A.L. 81 (H 2),A.L. 81 (H 2),
+A.V. 82 (H 2),A.V. 82 (H 2),
+A.N. 83 (H 2),A.N. 83 (H 2),
+A.A. 84 (H 2),A.A. 84 (H 2),
+A.V. 85 (H 2),A.V. 85 (H 2),
+A.A. 86 (H 2),A.A. 86 (H 2),
+A.A. 87 (H 2),A.A. 87 (H 2),
+A.V. 88 (H 2),A.V. 88 (H 2),
+A.Y. 89 (H 2),A.Y. 89 (H 2),
+A.A. 90 (H 2),A.A. 90 (H 2),
+A.E. 91 (H 2),A.E. 91 (H 2),
+A.V. 92 (H 2),A.V. 92 (H 2),
+A.L. 93 (H 2),A.L. 93 (H 2),
+A.A. 94 (H 2),A.A. 94 (H 2),
+A.R. 95 (H 2),A.R. 95 (H 2),
+A.F. 96 (H 2),A.F. 96 (H 2),
+A.N. 97 (H 2),A.N. 97 (H 2),
+A.D. 98 (H 2),A.D. 98 (H 2),
+A.L. 99 (H 2),A.L. 99 (H 2),
+A.G.100      ,A.G.100      ,
+End of Match List 
+
+Alignment No. 2:
+*** Num of molecules = 2 
+*** Size = 64 
+*** Average RMSD = 1.2 
+*** Molecules: openfold.pdb omegafold.pdb 
+*** Transformations:
+omegafold.pdb: 1.152530 1.559118 -2.481102 1.936618 2.898669 0.081746
+*** Match List:
+ openfold.pdb,omegafold.pdb,
+A.M.  1      ,A.G.  4      ,
+A.D.  2      ,A.V.  6      ,
+A.D.  5      ,A.A.  8      ,
+A.P. 28      ,A.V. 26      ,
+A.E. 31      ,A.E. 31      ,
+A.I. 32      ,A.I. 32      ,
+A.K. 33      ,A.K. 33      ,
+A.L. 34      ,A.L. 34      ,
+A.N. 35      ,A.N. 35      ,
+A.S. 36      ,A.S. 36      ,
+A.T. 37      ,A.T. 37      ,
+A.K. 38 (H 0),A.K. 38 (H 0),
+A.P. 39 (H 0),A.P. 39 (H 0),
+A.F. 40 (H 0),A.F. 40 (H 0),
+A.D. 41 (H 0),A.D. 41 (H 0),
+A.E. 42 (H 0),A.E. 42 (H 0),
+A.F. 43 (H 0),A.F. 43 (H 0),
+A.N. 44 (H 0),A.N. 44 (H 0),
+A.E. 45 (H 0),A.E. 45 (H 0),
+A.A. 46 (H 0),A.A. 46 (H 0),
+A.K. 47 (H 0),A.K. 47 (H 0),
+A.S. 48 (H 0),A.S. 48 (H 0),
+A.L. 49      ,A.L. 49      ,
+A.G. 50      ,A.G. 50      ,
+A.V. 51      ,A.V. 51      ,
+A.E. 52      ,A.E. 52      ,
+A.T. 53      ,A.T. 53      ,
+A.K. 54      ,A.K. 54      ,
+A.P. 55      ,A.P. 55      ,
+A.V. 56      ,A.V. 56      ,
+A.F. 57      ,A.F. 57      ,
+A.T. 62 (H 1),A.Y. 61 (H 1),
+A.F. 63 (H 1),A.P. 60 (H 1),
+A.L. 64 (H 1),A.L. 64 (H 1),
+A.K. 65 (H 1),A.K. 65 (H 1),
+A.L. 66 (H 1),A.T. 62 (H 1),
+A.R. 68      ,A.V. 23      ,
+A.T. 69      ,A.P. 24      ,
+A.A. 72      ,A.L. 22      ,
+A.L. 75      ,A.R. 68      ,
+A.E. 76      ,A.T. 69      ,
+A.I. 77      ,A.D. 78      ,
+A.K. 79 (H 2),A.K. 79 (H 2),
+A.G. 80 (H 2),A.G. 80 (H 2),
+A.L. 81 (H 2),A.L. 81 (H 2),
+A.V. 82 (H 2),A.V. 82 (H 2),
+A.N. 83 (H 2),A.N. 83 (H 2),
+A.A. 84 (H 2),A.A. 84 (H 2),
+A.V. 85 (H 2),A.V. 85 (H 2),
+A.A. 86 (H 2),A.A. 86 (H 2),
+A.A. 87 (H 2),A.A. 87 (H 2),
+A.V. 88 (H 2),A.V. 88 (H 2),
+A.Y. 89 (H 2),A.Y. 89 (H 2),
+A.A. 90 (H 2),A.A. 90 (H 2),
+A.E. 91 (H 2),A.E. 91 (H 2),
+A.V. 92 (H 2),A.V. 92 (H 2),
+A.L. 93 (H 2),A.L. 93 (H 2),
+A.A. 94 (H 2),A.A. 94 (H 2),
+A.R. 95 (H 2),A.R. 95 (H 2),
+A.F. 96 (H 2),A.F. 96 (H 2),
+A.N. 97 (H 2),A.N. 97 (H 2),
+A.D. 98 (H 2),A.D. 98 (H 2),
+A.L. 99 (H 2),A.L. 99 (H 2),
+A.G.100      ,A.G.100      ,
+End of Match List 
+
+Overall running time:  0: 0: 0.   
