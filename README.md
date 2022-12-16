@@ -16,9 +16,11 @@ Student: Patrushev Boris 19213
 ## Pair Alignment
 
 It was hard to set up jmol for this task, so If you want to repeat the process, just copy the commnad bellow
+
 'load openfold.pdb;color orange;ribbons only;load append omegafold.pdb;select 2.1;color yellow;ribbons only;frame *;'
 
 For rotating you must select the model and then rotate with mouse:
+
 'select 1.1; set  set allowRotateSelected true; set dragSelected true;'
 
 Output:
